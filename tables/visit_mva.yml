@@ -103,13 +103,13 @@ tables:
         description: visit time of the user       
 
       - name: calc_revenue
-        column: "{revenue_ltv.revenue}"
+        column: "{revenue_mva_ltv.revenue}"
         type: number
         description: Revenue
         
 
       - name: v_cost
-        column: "{cost_ltv.cost}"
+        column: "{cost_mva_ltv.cost}"
         type: number
         description: Cost
 
