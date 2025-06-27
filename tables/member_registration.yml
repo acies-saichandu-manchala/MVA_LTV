@@ -1,6 +1,6 @@
 tables:
-  - name: member_registraion
-    sql: {{ load_sql('member_registraion') }}
+  - name: member_registration
+    sql: {{ load_sql('member_registration') }}
     description: member registration mva information
     public: true
 
